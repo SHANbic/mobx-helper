@@ -1,6 +1,6 @@
 import { observable, computed, action, configure } from "mobx";
 
-configure({ enforceActions: 'observed' }); // strict mode
+configure({ enforceActions: 'observed' });
 
 export default class Counter {
   @observable count = 0;
