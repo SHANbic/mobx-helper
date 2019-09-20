@@ -14,7 +14,7 @@ const App = observer(({ store }) => (
     <button onClick={() => store.add()}> + </button>
     <div>Ton chiffre au carré est égal à {store.square}</div>
 
-    <style>
+    <style jsx>
       {`
       * {
         margin-bottom: 10px;

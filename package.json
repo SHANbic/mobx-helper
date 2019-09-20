@@ -1,16 +1,13 @@
 {
-  "name": "mobx-react-boilerplate",
+  "name": "mobx-tuto",
   "version": "1.0.0",
-  "description": "Boilerplate for MobX + React project with JSX, ES6 and decorator compilation",
+  "description": "Simple MobX helper to create manage state in a React app",
   "scripts": {
     "start": "webpack-dev-server --hot --open",
     "build": "webpack",
     "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mobxjs/mobx-react-boilerplate.git"
-  },
+  
   "keywords": [
     "react",
     "reactjs",
@@ -18,12 +15,7 @@
     "mobx",
     "starter-kit"
   ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mobxjs/mobx/issues"
-  },
-  "homepage": "http://mobxjs.github.com/mobx",
+  "author": "SHANbic",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
