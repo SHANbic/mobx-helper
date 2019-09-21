@@ -7,7 +7,7 @@
     "build": "webpack",
     "lint": "eslint src"
   },
-  
+  "license": "ISC",
   "keywords": [
     "react",
     "reactjs",
